@@ -8,7 +8,7 @@ const UserCard = (props) => {
                 {/* Image Section */}
                 <div className="flex-shrink-0 w-1/3">
                     <img
-                        src={props.ime || "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNSgGbqmow7OzxHkEu_F2x9Z91uA61XZaEHg&s"}
+                        src={props.image || "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNSgGbqmow7OzxHkEu_F2x9Z91uA61XZaEHg&s"}
                         alt="User"
                         className="w-full h-auto object-cover rounded-lg"
                     />
